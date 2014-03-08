@@ -5,15 +5,19 @@
   </div>
   <div class="panel-body">
     <div class="row">
-      <div class="col-sm-7">
-        <p>This form is not 'automagically' sent, You will need to copy and paste the following into an email to:</p>
-      </div>
-      <div class="col-sm-5">
+      <div class="col-sm-12">
+        <p>Your complete report is displayed below in both HTML and Markdown 
+        formats for your convenience. We do not store this data, so
+        ensure you've saved the report locally before closing this window.</p>
+        <p>You are most likely submitting your report via email to your team, 
+        or your manager. Using the launch button, below, will open your default
+        email client and paste your report into the body of the email.</p>
+        <p>NOTE: If your default email client is web-based you may receive a 414
+        error when using the launch button. If you receive this error, please 
+        avoid using the "launch" button and instead copy and paste your 5:15 
+        report into your email application.</p>
         <button type="button" ng-click="sendEmail()" class="btn btn-lg btn-info">Launch email to: Seth</button>
       </div>
-    </div>
-    <div class="alert alert-warning">
-      <strong>NOTE: Using a web based email client may result in a failed request due to the size of the url string that would be passed.</strong>
     </div>
   </div>
 </div>
